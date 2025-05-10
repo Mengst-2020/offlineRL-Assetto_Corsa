@@ -1,0 +1,2218 @@
+Pretraining policy
+Training dynamics:
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17659315 |
+| loss/dynamics_train_loss   | -34.3      |
+| timestep                   | 1          |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17620535 |
+| loss/dynamics_train_loss   | -42.5      |
+| timestep                   | 2          |
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.1757315 |
+| loss/dynamics_train_loss   | -45.6     |
+| timestep                   | 3         |
+---------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17550154 |
+| loss/dynamics_train_loss   | -48        |
+| timestep                   | 4          |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17535129 |
+| loss/dynamics_train_loss   | -49.8      |
+| timestep                   | 5          |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17515227 |
+| loss/dynamics_train_loss   | -51.3      |
+| timestep                   | 6          |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17499343 |
+| loss/dynamics_train_loss   | -52.8      |
+| timestep                   | 7          |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17488596 |
+| loss/dynamics_train_loss   | -53.4      |
+| timestep                   | 8          |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17473519 |
+| loss/dynamics_train_loss   | -54.7      |
+| timestep                   | 9          |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17464772 |
+| loss/dynamics_train_loss   | -55.6      |
+| timestep                   | 10         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17457831 |
+| loss/dynamics_train_loss   | -56.3      |
+| timestep                   | 11         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17448527 |
+| loss/dynamics_train_loss   | -56.9      |
+| timestep                   | 12         |
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.1744108 |
+| loss/dynamics_train_loss   | -57.5     |
+| timestep                   | 13        |
+---------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17435642 |
+| loss/dynamics_train_loss   | -57.7      |
+| timestep                   | 14         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17426914 |
+| loss/dynamics_train_loss   | -58.4      |
+| timestep                   | 15         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17423618 |
+| loss/dynamics_train_loss   | -58.8      |
+| timestep                   | 16         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17418557 |
+| loss/dynamics_train_loss   | -58        |
+| timestep                   | 17         |
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.174096 |
+| loss/dynamics_train_loss   | -59      |
+| timestep                   | 18       |
+--------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17403765 |
+| loss/dynamics_train_loss   | -59.7      |
+| timestep                   | 19         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17397243 |
+| loss/dynamics_train_loss   | -60.1      |
+| timestep                   | 20         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17391506 |
+| loss/dynamics_train_loss   | -60.4      |
+| timestep                   | 21         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17384787 |
+| loss/dynamics_train_loss   | -60.7      |
+| timestep                   | 22         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17378962 |
+| loss/dynamics_train_loss   | -61        |
+| timestep                   | 23         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17376733 |
+| loss/dynamics_train_loss   | -61.2      |
+| timestep                   | 24         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17372136 |
+| loss/dynamics_train_loss   | -61.3      |
+| timestep                   | 25         |
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.1736428 |
+| loss/dynamics_train_loss   | -61.7     |
+| timestep                   | 26        |
+---------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17358293 |
+| loss/dynamics_train_loss   | -61.8      |
+| timestep                   | 27         |
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+| loss/dynamics_holdout_loss | 0.17351833 |
+| loss/dynamics_train_loss   | -62.1      |
+| timestep                   | 28         |
+----------------------------------------------------------------------------
+elites:[2, 1, 6, 3, 5] , holdout loss: 0.17461995780467987
+num rollout transitions: 122095, reward mean: 0.6736
+num rollout transitions: 122603, reward mean: 0.6713
+num rollout transitions: 122030, reward mean: 0.6698
+num rollout transitions: 121746, reward mean: 0.6684
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -5.21e-10 |
+| adv_dynamics_update/adv_log_prob  | 317       |
+| adv_dynamics_update/adv_loss      | 28.6      |
+| adv_dynamics_update/all_loss      | -44.4     |
+| adv_dynamics_update/sl_loss       | -44.4     |
+| alpha                             | 0.962     |
+| loss/actor                        | -4.43     |
+| loss/alpha                        | -0.193    |
+| loss/critic1                      | 4.35      |
+| loss/critic2                      | 4.35      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.671     |
+| timestep                          | 1000      |
+----------------------------------------------------------------------------------
+num rollout transitions: 122338, reward mean: 0.6698
+num rollout transitions: 122001, reward mean: 0.6686
+num rollout transitions: 121654, reward mean: 0.6690
+num rollout transitions: 122795, reward mean: 0.6706
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 4.25e-10 |
+| adv_dynamics_update/adv_log_prob  | 379      |
+| adv_dynamics_update/adv_loss      | 14.7     |
+| adv_dynamics_update/all_loss      | -56.1    |
+| adv_dynamics_update/sl_loss       | -56.1    |
+| alpha                             | 0.872    |
+| loss/actor                        | -11.1    |
+| loss/alpha                        | -0.661   |
+| loss/critic1                      | 2.62     |
+| loss/critic2                      | 2.56     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.67     |
+| timestep                          | 2000     |
+---------------------------------------------------------------------------------
+num rollout transitions: 122863, reward mean: 0.6705
+num rollout transitions: 122835, reward mean: 0.6702
+num rollout transitions: 121988, reward mean: 0.6688
+num rollout transitions: 122624, reward mean: 0.6688
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -4.08e-10 |
+| adv_dynamics_update/adv_log_prob  | 390       |
+| adv_dynamics_update/adv_loss      | 8.14      |
+| adv_dynamics_update/all_loss      | -56.6     |
+| adv_dynamics_update/sl_loss       | -56.6     |
+| alpha                             | 0.791     |
+| loss/actor                        | -15.6     |
+| loss/alpha                        | -1.1      |
+| loss/critic1                      | 2.16      |
+| loss/critic2                      | 2.1       |
+| rollout_info/num_transitions      | 1.23e+05  |
+| rollout_info/reward_mean          | 0.67      |
+| timestep                          | 3000      |
+----------------------------------------------------------------------------------
+num rollout transitions: 122510, reward mean: 0.6686
+num rollout transitions: 121715, reward mean: 0.6663
+num rollout transitions: 121685, reward mean: 0.6651
+num rollout transitions: 122143, reward mean: 0.6651
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.73e-11 |
+| adv_dynamics_update/adv_log_prob  | 380      |
+| adv_dynamics_update/adv_loss      | 3.77     |
+| adv_dynamics_update/all_loss      | -56.8    |
+| adv_dynamics_update/sl_loss       | -56.8    |
+| alpha                             | 0.718    |
+| loss/actor                        | -20.7    |
+| loss/alpha                        | -1.48    |
+| loss/critic1                      | 1.71     |
+| loss/critic2                      | 1.7      |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.666    |
+| timestep                          | 4000     |
+---------------------------------------------------------------------------------
+num rollout transitions: 122417, reward mean: 0.6655
+num rollout transitions: 122292, reward mean: 0.6653
+num rollout transitions: 122352, reward mean: 0.6671
+num rollout transitions: 122626, reward mean: 0.6694
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.55e-10 |
+| adv_dynamics_update/adv_log_prob  | 391      |
+| adv_dynamics_update/adv_loss      | 7.86     |
+| adv_dynamics_update/all_loss      | -56.8    |
+| adv_dynamics_update/sl_loss       | -56.8    |
+| alpha                             | 0.652    |
+| loss/actor                        | -25.9    |
+| loss/alpha                        | -1.88    |
+| loss/critic1                      | 2.04     |
+| loss/critic2                      | 2.05     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.667    |
+| timestep                          | 5000     |
+---------------------------------------------------------------------------------
+num rollout transitions: 121432, reward mean: 0.6660
+num rollout transitions: 121226, reward mean: 0.6665
+num rollout transitions: 122098, reward mean: 0.6675
+num rollout transitions: 122429, reward mean: 0.6679
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.97e-10 |
+| adv_dynamics_update/adv_log_prob  | 395      |
+| adv_dynamics_update/adv_loss      | 14.7     |
+| adv_dynamics_update/all_loss      | -56.9    |
+| adv_dynamics_update/sl_loss       | -56.9    |
+| alpha                             | 0.59     |
+| loss/actor                        | -29.2    |
+| loss/alpha                        | -2.37    |
+| loss/critic1                      | 2.31     |
+| loss/critic2                      | 2.3      |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.667    |
+| timestep                          | 6000     |
+---------------------------------------------------------------------------------
+num rollout transitions: 122817, reward mean: 0.6717
+num rollout transitions: 122461, reward mean: 0.6700
+num rollout transitions: 121984, reward mean: 0.6705
+num rollout transitions: 122170, reward mean: 0.6706
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -6.88e-10 |
+| adv_dynamics_update/adv_log_prob  | 397       |
+| adv_dynamics_update/adv_loss      | 6.75      |
+| adv_dynamics_update/all_loss      | -57.2     |
+| adv_dynamics_update/sl_loss       | -57.2     |
+| alpha                             | 0.534     |
+| loss/actor                        | -31.9     |
+| loss/alpha                        | -2.8      |
+| loss/critic1                      | 2.65      |
+| loss/critic2                      | 2.65      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.671     |
+| timestep                          | 7000      |
+----------------------------------------------------------------------------------
+num rollout transitions: 123046, reward mean: 0.6711
+num rollout transitions: 122161, reward mean: 0.6695
+num rollout transitions: 121824, reward mean: 0.6690
+num rollout transitions: 123078, reward mean: 0.6715
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.09e-10 |
+| adv_dynamics_update/adv_log_prob  | 400       |
+| adv_dynamics_update/adv_loss      | 6.46      |
+| adv_dynamics_update/all_loss      | -56.9     |
+| adv_dynamics_update/sl_loss       | -56.9     |
+| alpha                             | 0.483     |
+| loss/actor                        | -34.6     |
+| loss/alpha                        | -3.17     |
+| loss/critic1                      | 3.19      |
+| loss/critic2                      | 3.19      |
+| rollout_info/num_transitions      | 1.23e+05  |
+| rollout_info/reward_mean          | 0.67      |
+| timestep                          | 8000      |
+----------------------------------------------------------------------------------
+num rollout transitions: 121948, reward mean: 0.6706
+num rollout transitions: 122058, reward mean: 0.6703
+num rollout transitions: 122277, reward mean: 0.6709
+num rollout transitions: 122576, reward mean: 0.6704
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.87e-10 |
+| adv_dynamics_update/adv_log_prob  | 404      |
+| adv_dynamics_update/adv_loss      | 3.94     |
+| adv_dynamics_update/all_loss      | -57.7    |
+| adv_dynamics_update/sl_loss       | -57.7    |
+| alpha                             | 0.438    |
+| loss/actor                        | -36.4    |
+| loss/alpha                        | -3.54    |
+| loss/critic1                      | 3.77     |
+| loss/critic2                      | 3.78     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.671    |
+| timestep                          | 9000     |
+---------------------------------------------------------------------------------
+num rollout transitions: 122738, reward mean: 0.6719
+num rollout transitions: 122508, reward mean: 0.6722
+num rollout transitions: 122407, reward mean: 0.6723
+num rollout transitions: 121586, reward mean: 0.6707
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.54e-11 |
+| adv_dynamics_update/adv_log_prob  | 406      |
+| adv_dynamics_update/adv_loss      | 4.34     |
+| adv_dynamics_update/all_loss      | -58      |
+| adv_dynamics_update/sl_loss       | -58      |
+| alpha                             | 0.397    |
+| loss/actor                        | -38.2    |
+| loss/alpha                        | -3.88    |
+| loss/critic1                      | 4.3      |
+| loss/critic2                      | 4.3      |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 10000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122904, reward mean: 0.6729
+num rollout transitions: 122240, reward mean: 0.6721
+num rollout transitions: 122088, reward mean: 0.6718
+num rollout transitions: 122844, reward mean: 0.6721
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.99e-10 |
+| adv_dynamics_update/adv_log_prob  | 410      |
+| adv_dynamics_update/adv_loss      | 3.18     |
+| adv_dynamics_update/all_loss      | -58.2    |
+| adv_dynamics_update/sl_loss       | -58.3    |
+| alpha                             | 0.36     |
+| loss/actor                        | -39.5    |
+| loss/alpha                        | -4.24    |
+| loss/critic1                      | 4.59     |
+| loss/critic2                      | 4.61     |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 11000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122255, reward mean: 0.6705
+num rollout transitions: 122511, reward mean: 0.6712
+num rollout transitions: 121900, reward mean: 0.6701
+num rollout transitions: 121872, reward mean: 0.6699
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.13e-10 |
+| adv_dynamics_update/adv_log_prob  | 413      |
+| adv_dynamics_update/adv_loss      | 4.85     |
+| adv_dynamics_update/all_loss      | -58.5    |
+| adv_dynamics_update/sl_loss       | -58.5    |
+| alpha                             | 0.326    |
+| loss/actor                        | -40.3    |
+| loss/alpha                        | -4.55    |
+| loss/critic1                      | 5.15     |
+| loss/critic2                      | 5.17     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.67     |
+| timestep                          | 12000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121702, reward mean: 0.6718
+num rollout transitions: 122202, reward mean: 0.6726
+num rollout transitions: 122470, reward mean: 0.6731
+num rollout transitions: 121673, reward mean: 0.6713
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.7e-11  |
+| adv_dynamics_update/adv_log_prob  | 415      |
+| adv_dynamics_update/adv_loss      | 1.56     |
+| adv_dynamics_update/all_loss      | -58.7    |
+| adv_dynamics_update/sl_loss       | -58.7    |
+| alpha                             | 0.296    |
+| loss/actor                        | -40.9    |
+| loss/alpha                        | -4.78    |
+| loss/critic1                      | 5.81     |
+| loss/critic2                      | 5.79     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 13000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122472, reward mean: 0.6733
+num rollout transitions: 122116, reward mean: 0.6726
+num rollout transitions: 121871, reward mean: 0.6720
+num rollout transitions: 122760, reward mean: 0.6731
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.49e-11 |
+| adv_dynamics_update/adv_log_prob  | 417      |
+| adv_dynamics_update/adv_loss      | -0.938   |
+| adv_dynamics_update/all_loss      | -59      |
+| adv_dynamics_update/sl_loss       | -59      |
+| alpha                             | 0.269    |
+| loss/actor                        | -41.7    |
+| loss/alpha                        | -4.97    |
+| loss/critic1                      | 6.2      |
+| loss/critic2                      | 6.21     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 14000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121865, reward mean: 0.6708
+num rollout transitions: 121327, reward mean: 0.6714
+num rollout transitions: 122748, reward mean: 0.6725
+num rollout transitions: 122528, reward mean: 0.6718
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -7.12e-11 |
+| adv_dynamics_update/adv_log_prob  | 422       |
+| adv_dynamics_update/adv_loss      | 4.51      |
+| adv_dynamics_update/all_loss      | -59       |
+| adv_dynamics_update/sl_loss       | -59       |
+| alpha                             | 0.244     |
+| loss/actor                        | -42.3     |
+| loss/alpha                        | -5.11     |
+| loss/critic1                      | 6.68      |
+| loss/critic2                      | 6.69      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.672     |
+| timestep                          | 15000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122151, reward mean: 0.6717
+num rollout transitions: 122470, reward mean: 0.6715
+num rollout transitions: 122344, reward mean: 0.6720
+num rollout transitions: 121913, reward mean: 0.6719
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.98e-10 |
+| adv_dynamics_update/adv_log_prob  | 423       |
+| adv_dynamics_update/adv_loss      | -0.431    |
+| adv_dynamics_update/all_loss      | -59.4     |
+| adv_dynamics_update/sl_loss       | -59.4     |
+| alpha                             | 0.222     |
+| loss/actor                        | -42.6     |
+| loss/alpha                        | -5.27     |
+| loss/critic1                      | 7.25      |
+| loss/critic2                      | 7.28      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.672     |
+| timestep                          | 16000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122177, reward mean: 0.6718
+num rollout transitions: 122122, reward mean: 0.6725
+num rollout transitions: 122634, reward mean: 0.6735
+num rollout transitions: 122002, reward mean: 0.6720
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 4.45e-11 |
+| adv_dynamics_update/adv_log_prob  | 409      |
+| adv_dynamics_update/adv_loss      | 8        |
+| adv_dynamics_update/all_loss      | -57.1    |
+| adv_dynamics_update/sl_loss       | -57.1    |
+| alpha                             | 0.201    |
+| loss/actor                        | -42.6    |
+| loss/alpha                        | -5.29    |
+| loss/critic1                      | 7.77     |
+| loss/critic2                      | 7.81     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 17000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122256, reward mean: 0.6676
+num rollout transitions: 122185, reward mean: 0.6669
+num rollout transitions: 122618, reward mean: 0.6690
+num rollout transitions: 122113, reward mean: 0.6678
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.89e-11 |
+| adv_dynamics_update/adv_log_prob  | 413       |
+| adv_dynamics_update/adv_loss      | -4.22     |
+| adv_dynamics_update/all_loss      | -58.2     |
+| adv_dynamics_update/sl_loss       | -58.1     |
+| alpha                             | 0.183     |
+| loss/actor                        | -42.7     |
+| loss/alpha                        | -5.34     |
+| loss/critic1                      | 8.56      |
+| loss/critic2                      | 8.61      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.668     |
+| timestep                          | 18000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 121831, reward mean: 0.6711
+num rollout transitions: 122223, reward mean: 0.6705
+num rollout transitions: 122345, reward mean: 0.6710
+num rollout transitions: 121598, reward mean: 0.6706
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -7.45e-12 |
+| adv_dynamics_update/adv_log_prob  | 431       |
+| adv_dynamics_update/adv_loss      | 0.759     |
+| adv_dynamics_update/all_loss      | -59.4     |
+| adv_dynamics_update/sl_loss       | -59.4     |
+| alpha                             | 0.167     |
+| loss/actor                        | -42.2     |
+| loss/alpha                        | -5.28     |
+| loss/critic1                      | 9.52      |
+| loss/critic2                      | 9.57      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.671     |
+| timestep                          | 19000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 121911, reward mean: 0.6722
+num rollout transitions: 122747, reward mean: 0.6732
+num rollout transitions: 121903, reward mean: 0.6717
+num rollout transitions: 122664, reward mean: 0.6730
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.48e-11 |
+| adv_dynamics_update/adv_log_prob  | 438      |
+| adv_dynamics_update/adv_loss      | -3.29    |
+| adv_dynamics_update/all_loss      | -59.8    |
+| adv_dynamics_update/sl_loss       | -59.8    |
+| alpha                             | 0.152    |
+| loss/actor                        | -41.8    |
+| loss/alpha                        | -5.07    |
+| loss/critic1                      | 9.73     |
+| loss/critic2                      | 9.83     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 20000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122008, reward mean: 0.6720
+num rollout transitions: 122822, reward mean: 0.6734
+num rollout transitions: 121991, reward mean: 0.6725
+num rollout transitions: 123195, reward mean: 0.6741
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.12e-10 |
+| adv_dynamics_update/adv_log_prob  | 440       |
+| adv_dynamics_update/adv_loss      | -1.04     |
+| adv_dynamics_update/all_loss      | -60       |
+| adv_dynamics_update/sl_loss       | -60       |
+| alpha                             | 0.139     |
+| loss/actor                        | -41.1     |
+| loss/alpha                        | -4.91     |
+| loss/critic1                      | 10.8      |
+| loss/critic2                      | 10.9      |
+| rollout_info/num_transitions      | 1.23e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 21000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 121703, reward mean: 0.6729
+num rollout transitions: 122689, reward mean: 0.6736
+num rollout transitions: 121963, reward mean: 0.6731
+num rollout transitions: 122639, reward mean: 0.6741
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -6.54e-11 |
+| adv_dynamics_update/adv_log_prob  | 443       |
+| adv_dynamics_update/adv_loss      | 0.331     |
+| adv_dynamics_update/all_loss      | -60.3     |
+| adv_dynamics_update/sl_loss       | -60.3     |
+| alpha                             | 0.126     |
+| loss/actor                        | -40.1     |
+| loss/alpha                        | -4.7      |
+| loss/critic1                      | 12.5      |
+| loss/critic2                      | 12.6      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 22000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122594, reward mean: 0.6739
+num rollout transitions: 122313, reward mean: 0.6739
+num rollout transitions: 122358, reward mean: 0.6733
+num rollout transitions: 122666, reward mean: 0.6738
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.1e-10  |
+| adv_dynamics_update/adv_log_prob  | 446      |
+| adv_dynamics_update/adv_loss      | -1.45    |
+| adv_dynamics_update/all_loss      | -60.4    |
+| adv_dynamics_update/sl_loss       | -60.4    |
+| alpha                             | 0.116    |
+| loss/actor                        | -39.2    |
+| loss/alpha                        | -4.31    |
+| loss/critic1                      | 12.9     |
+| loss/critic2                      | 13       |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 23000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122654, reward mean: 0.6729
+num rollout transitions: 122056, reward mean: 0.6724
+num rollout transitions: 122450, reward mean: 0.6726
+num rollout transitions: 122702, reward mean: 0.6731
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -6.57e-11 |
+| adv_dynamics_update/adv_log_prob  | 446       |
+| adv_dynamics_update/adv_loss      | -4.09     |
+| adv_dynamics_update/all_loss      | -60.6     |
+| adv_dynamics_update/sl_loss       | -60.6     |
+| alpha                             | 0.106     |
+| loss/actor                        | -38.4     |
+| loss/alpha                        | -4.11     |
+| loss/critic1                      | 13.8      |
+| loss/critic2                      | 13.8      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 24000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122588, reward mean: 0.6737
+num rollout transitions: 122581, reward mean: 0.6737
+num rollout transitions: 122390, reward mean: 0.6736
+num rollout transitions: 122984, reward mean: 0.6745
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.19e-10 |
+| adv_dynamics_update/adv_log_prob  | 449      |
+| adv_dynamics_update/adv_loss      | -5.63    |
+| adv_dynamics_update/all_loss      | -60.7    |
+| adv_dynamics_update/sl_loss       | -60.7    |
+| alpha                             | 0.0968   |
+| loss/actor                        | -37.5    |
+| loss/alpha                        | -3.87    |
+| loss/critic1                      | 14.2     |
+| loss/critic2                      | 14.2     |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 25000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121671, reward mean: 0.6724
+num rollout transitions: 122687, reward mean: 0.6738
+num rollout transitions: 121757, reward mean: 0.6733
+num rollout transitions: 121690, reward mean: 0.6732
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.22e-11 |
+| adv_dynamics_update/adv_log_prob  | 450       |
+| adv_dynamics_update/adv_loss      | -6.21     |
+| adv_dynamics_update/all_loss      | -60.9     |
+| adv_dynamics_update/sl_loss       | -60.9     |
+| alpha                             | 0.0886    |
+| loss/actor                        | -36.7     |
+| loss/alpha                        | -3.54     |
+| loss/critic1                      | 15.5      |
+| loss/critic2                      | 15.7      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 26000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 121693, reward mean: 0.6729
+num rollout transitions: 122349, reward mean: 0.6740
+num rollout transitions: 122283, reward mean: 0.6738
+num rollout transitions: 122348, reward mean: 0.6745
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 4.61e-11 |
+| adv_dynamics_update/adv_log_prob  | 451      |
+| adv_dynamics_update/adv_loss      | -5.21    |
+| adv_dynamics_update/all_loss      | -61      |
+| adv_dynamics_update/sl_loss       | -61      |
+| alpha                             | 0.0812   |
+| loss/actor                        | -36.1    |
+| loss/alpha                        | -3.13    |
+| loss/critic1                      | 17.3     |
+| loss/critic2                      | 17.3     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 27000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122550, reward mean: 0.6732
+num rollout transitions: 121513, reward mean: 0.6721
+num rollout transitions: 122206, reward mean: 0.6728
+num rollout transitions: 122449, reward mean: 0.6733
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.34e-11 |
+| adv_dynamics_update/adv_log_prob  | 455       |
+| adv_dynamics_update/adv_loss      | -11.3     |
+| adv_dynamics_update/all_loss      | -61.2     |
+| adv_dynamics_update/sl_loss       | -61.2     |
+| alpha                             | 0.0747    |
+| loss/actor                        | -35.2     |
+| loss/alpha                        | -2.7      |
+| loss/critic1                      | 19.1      |
+| loss/critic2                      | 19.1      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 28000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122283, reward mean: 0.6744
+num rollout transitions: 121649, reward mean: 0.6738
+num rollout transitions: 122380, reward mean: 0.6746
+num rollout transitions: 121895, reward mean: 0.6736
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 6.75e-12 |
+| adv_dynamics_update/adv_log_prob  | 455      |
+| adv_dynamics_update/adv_loss      | -9.88    |
+| adv_dynamics_update/all_loss      | -61.2    |
+| adv_dynamics_update/sl_loss       | -61.2    |
+| alpha                             | 0.069    |
+| loss/actor                        | -34.5    |
+| loss/alpha                        | -2.33    |
+| loss/critic1                      | 20.7     |
+| loss/critic2                      | 20.8     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 29000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121722, reward mean: 0.6725
+num rollout transitions: 122595, reward mean: 0.6738
+num rollout transitions: 121898, reward mean: 0.6729
+num rollout transitions: 122395, reward mean: 0.6740
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.16e-10 |
+| adv_dynamics_update/adv_log_prob  | 457      |
+| adv_dynamics_update/adv_loss      | -9.93    |
+| adv_dynamics_update/all_loss      | -61.3    |
+| adv_dynamics_update/sl_loss       | -61.3    |
+| alpha                             | 0.0636   |
+| loss/actor                        | -34      |
+| loss/alpha                        | -2.04    |
+| loss/critic1                      | 23.2     |
+| loss/critic2                      | 23.4     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 30000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122099, reward mean: 0.6747
+num rollout transitions: 122486, reward mean: 0.6748
+num rollout transitions: 122723, reward mean: 0.6752
+num rollout transitions: 122374, reward mean: 0.6738
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.42e-10 |
+| adv_dynamics_update/adv_log_prob  | 456      |
+| adv_dynamics_update/adv_loss      | -6.62    |
+| adv_dynamics_update/all_loss      | -61.4    |
+| adv_dynamics_update/sl_loss       | -61.4    |
+| alpha                             | 0.0589   |
+| loss/actor                        | -33.8    |
+| loss/alpha                        | -1.57    |
+| loss/critic1                      | 31.2     |
+| loss/critic2                      | 31.5     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.675    |
+| timestep                          | 31000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122437, reward mean: 0.6750
+num rollout transitions: 122005, reward mean: 0.6739
+num rollout transitions: 122283, reward mean: 0.6746
+num rollout transitions: 123079, reward mean: 0.6759
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.05e-11 |
+| adv_dynamics_update/adv_log_prob  | 457       |
+| adv_dynamics_update/adv_loss      | -16.1     |
+| adv_dynamics_update/all_loss      | -61.6     |
+| adv_dynamics_update/sl_loss       | -61.6     |
+| alpha                             | 0.0551    |
+| loss/actor                        | -34       |
+| loss/alpha                        | -0.971    |
+| loss/critic1                      | 36.3      |
+| loss/critic2                      | 36.5      |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.675     |
+| timestep                          | 32000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122413, reward mean: 0.6737
+num rollout transitions: 121718, reward mean: 0.6730
+num rollout transitions: 122758, reward mean: 0.6743
+num rollout transitions: 121526, reward mean: 0.6720
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 9.56e-11 |
+| adv_dynamics_update/adv_log_prob  | 458      |
+| adv_dynamics_update/adv_loss      | -13      |
+| adv_dynamics_update/all_loss      | -61.7    |
+| adv_dynamics_update/sl_loss       | -61.7    |
+| alpha                             | 0.0528   |
+| loss/actor                        | -33.7    |
+| loss/alpha                        | -0.301   |
+| loss/critic1                      | 48.2     |
+| loss/critic2                      | 48.4     |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 33000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122449, reward mean: 0.6743
+num rollout transitions: 122144, reward mean: 0.6743
+num rollout transitions: 122924, reward mean: 0.6755
+num rollout transitions: 122683, reward mean: 0.6748
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.9e-10 |
+| adv_dynamics_update/adv_log_prob  | 459      |
+| adv_dynamics_update/adv_loss      | -17      |
+| adv_dynamics_update/all_loss      | -61.8    |
+| adv_dynamics_update/sl_loss       | -61.8    |
+| alpha                             | 0.0517   |
+| loss/actor                        | -32.7    |
+| loss/alpha                        | -0.254   |
+| loss/critic1                      | 63.2     |
+| loss/critic2                      | 64.1     |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.675    |
+| timestep                          | 34000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122028, reward mean: 0.6738
+num rollout transitions: 122285, reward mean: 0.6739
+num rollout transitions: 123360, reward mean: 0.6762
+num rollout transitions: 122532, reward mean: 0.6750
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.95e-10 |
+| adv_dynamics_update/adv_log_prob  | 461       |
+| adv_dynamics_update/adv_loss      | -13.8     |
+| adv_dynamics_update/all_loss      | -61       |
+| adv_dynamics_update/sl_loss       | -61       |
+| alpha                             | 0.0509    |
+| loss/actor                        | -32.1     |
+| loss/alpha                        | 0.0956    |
+| loss/critic1                      | 91.1      |
+| loss/critic2                      | 92.9      |
+| rollout_info/num_transitions      | 1.23e+05  |
+| rollout_info/reward_mean          | 0.675     |
+| timestep                          | 35000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122562, reward mean: 0.6751
+num rollout transitions: 121789, reward mean: 0.6740
+num rollout transitions: 122331, reward mean: 0.6744
+num rollout transitions: 122403, reward mean: 0.6751
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 6.61e-11 |
+| adv_dynamics_update/adv_log_prob  | 456      |
+| adv_dynamics_update/adv_loss      | -15.3    |
+| adv_dynamics_update/all_loss      | -61.9    |
+| adv_dynamics_update/sl_loss       | -61.9    |
+| alpha                             | 0.0527   |
+| loss/actor                        | -30.9    |
+| loss/alpha                        | 0.25     |
+| loss/critic1                      | 126      |
+| loss/critic2                      | 128      |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.675    |
+| timestep                          | 36000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121773, reward mean: 0.6725
+num rollout transitions: 122406, reward mean: 0.6737
+num rollout transitions: 122639, reward mean: 0.6739
+num rollout transitions: 121499, reward mean: 0.6718
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.02e-10 |
+| adv_dynamics_update/adv_log_prob  | 460      |
+| adv_dynamics_update/adv_loss      | -12.9    |
+| adv_dynamics_update/all_loss      | -62      |
+| adv_dynamics_update/sl_loss       | -62      |
+| alpha                             | 0.0552   |
+| loss/actor                        | -30.2    |
+| loss/alpha                        | 0.396    |
+| loss/critic1                      | 173      |
+| loss/critic2                      | 176      |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 37000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122324, reward mean: 0.6737
+num rollout transitions: 122181, reward mean: 0.6738
+num rollout transitions: 121950, reward mean: 0.6734
+num rollout transitions: 122758, reward mean: 0.6740
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -9.87e-11 |
+| adv_dynamics_update/adv_log_prob  | 459       |
+| adv_dynamics_update/adv_loss      | -18.1     |
+| adv_dynamics_update/all_loss      | -62.2     |
+| adv_dynamics_update/sl_loss       | -62.2     |
+| alpha                             | 0.0596    |
+| loss/actor                        | -29       |
+| loss/alpha                        | 0.41      |
+| loss/critic1                      | 196       |
+| loss/critic2                      | 199       |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 38000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122241, reward mean: 0.6740
+num rollout transitions: 122475, reward mean: 0.6744
+num rollout transitions: 122633, reward mean: 0.6744
+num rollout transitions: 121981, reward mean: 0.6734
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.16e-10 |
+| adv_dynamics_update/adv_log_prob  | 460      |
+| adv_dynamics_update/adv_loss      | -18      |
+| adv_dynamics_update/all_loss      | -62.3    |
+| adv_dynamics_update/sl_loss       | -62.3    |
+| alpha                             | 0.0635   |
+| loss/actor                        | -27.6    |
+| loss/alpha                        | 0.469    |
+| loss/critic1                      | 267      |
+| loss/critic2                      | 271      |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 39000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122435, reward mean: 0.6745
+num rollout transitions: 123017, reward mean: 0.6741
+num rollout transitions: 122138, reward mean: 0.6734
+num rollout transitions: 121952, reward mean: 0.6733
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.01e-10 |
+| adv_dynamics_update/adv_log_prob  | 457       |
+| adv_dynamics_update/adv_loss      | -16.9     |
+| adv_dynamics_update/all_loss      | -60.3     |
+| adv_dynamics_update/sl_loss       | -60.3     |
+| alpha                             | 0.0698    |
+| loss/actor                        | -24.9     |
+| loss/alpha                        | 0.661     |
+| loss/critic1                      | 406       |
+| loss/critic2                      | 419       |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 40000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122674, reward mean: 0.6745
+num rollout transitions: 121611, reward mean: 0.6732
+num rollout transitions: 121782, reward mean: 0.6731
+num rollout transitions: 122927, reward mean: 0.6747
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.59e-10 |
+| adv_dynamics_update/adv_log_prob  | 461       |
+| adv_dynamics_update/adv_loss      | -8.08     |
+| adv_dynamics_update/all_loss      | -62.3     |
+| adv_dynamics_update/sl_loss       | -62.3     |
+| alpha                             | 0.0757    |
+| loss/actor                        | -24.4     |
+| loss/alpha                        | 0.51      |
+| loss/critic1                      | 399       |
+| loss/critic2                      | 404       |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 41000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122956, reward mean: 0.6748
+num rollout transitions: 122642, reward mean: 0.6742
+num rollout transitions: 123353, reward mean: 0.6748
+num rollout transitions: 122889, reward mean: 0.6747
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.06e-10 |
+| adv_dynamics_update/adv_log_prob  | 463      |
+| adv_dynamics_update/adv_loss      | -11.1    |
+| adv_dynamics_update/all_loss      | -62.5    |
+| adv_dynamics_update/sl_loss       | -62.5    |
+| alpha                             | 0.0821   |
+| loss/actor                        | -22.7    |
+| loss/alpha                        | 0.607    |
+| loss/critic1                      | 595      |
+| loss/critic2                      | 606      |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.675    |
+| timestep                          | 42000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 123221, reward mean: 0.6744
+num rollout transitions: 121995, reward mean: 0.6732
+num rollout transitions: 121985, reward mean: 0.6738
+num rollout transitions: 121916, reward mean: 0.6727
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.61e-10 |
+| adv_dynamics_update/adv_log_prob  | 463       |
+| adv_dynamics_update/adv_loss      | -5.64     |
+| adv_dynamics_update/all_loss      | -62.6     |
+| adv_dynamics_update/sl_loss       | -62.6     |
+| alpha                             | 0.0894    |
+| loss/actor                        | -21.3     |
+| loss/alpha                        | 0.57      |
+| loss/critic1                      | 788       |
+| loss/critic2                      | 814       |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 43000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 121933, reward mean: 0.6729
+num rollout transitions: 122415, reward mean: 0.6732
+num rollout transitions: 122983, reward mean: 0.6740
+num rollout transitions: 122176, reward mean: 0.6724
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -4.32e-11 |
+| adv_dynamics_update/adv_log_prob  | 435       |
+| adv_dynamics_update/adv_loss      | -14       |
+| adv_dynamics_update/all_loss      | -61.2     |
+| adv_dynamics_update/sl_loss       | -61.2     |
+| alpha                             | 0.0963    |
+| loss/actor                        | -19.7     |
+| loss/alpha                        | 0.496     |
+| loss/critic1                      | 1.12e+03  |
+| loss/critic2                      | 1.12e+03  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 44000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122006, reward mean: 0.6732
+num rollout transitions: 121684, reward mean: 0.6729
+num rollout transitions: 122002, reward mean: 0.6734
+num rollout transitions: 122435, reward mean: 0.6742
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.4e-10  |
+| adv_dynamics_update/adv_log_prob  | 447      |
+| adv_dynamics_update/adv_loss      | -14.9    |
+| adv_dynamics_update/all_loss      | -61.9    |
+| adv_dynamics_update/sl_loss       | -61.9    |
+| alpha                             | 0.104    |
+| loss/actor                        | -18      |
+| loss/alpha                        | 0.647    |
+| loss/critic1                      | 1.17e+03 |
+| loss/critic2                      | 1.2e+03  |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 45000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121885, reward mean: 0.6739
+num rollout transitions: 121881, reward mean: 0.6737
+num rollout transitions: 121982, reward mean: 0.6731
+num rollout transitions: 121503, reward mean: 0.6736
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.16e-10 |
+| adv_dynamics_update/adv_log_prob  | 456      |
+| adv_dynamics_update/adv_loss      | -9.26    |
+| adv_dynamics_update/all_loss      | -62.5    |
+| adv_dynamics_update/sl_loss       | -62.5    |
+| alpha                             | 0.114    |
+| loss/actor                        | -14.8    |
+| loss/alpha                        | 0.664    |
+| loss/critic1                      | 1.57e+03 |
+| loss/critic2                      | 1.59e+03 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 46000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122560, reward mean: 0.6745
+num rollout transitions: 121882, reward mean: 0.6723
+num rollout transitions: 122129, reward mean: 0.6724
+num rollout transitions: 122592, reward mean: 0.6739
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 7.4e-11  |
+| adv_dynamics_update/adv_log_prob  | 454      |
+| adv_dynamics_update/adv_loss      | -10.9    |
+| adv_dynamics_update/all_loss      | -62.7    |
+| adv_dynamics_update/sl_loss       | -62.7    |
+| alpha                             | 0.125    |
+| loss/actor                        | -11.8    |
+| loss/alpha                        | 0.644    |
+| loss/critic1                      | 2.21e+03 |
+| loss/critic2                      | 2.24e+03 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 47000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122163, reward mean: 0.6739
+num rollout transitions: 122236, reward mean: 0.6733
+num rollout transitions: 122278, reward mean: 0.6740
+num rollout transitions: 122103, reward mean: 0.6739
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.19e-10 |
+| adv_dynamics_update/adv_log_prob  | 459      |
+| adv_dynamics_update/adv_loss      | 1.93     |
+| adv_dynamics_update/all_loss      | -62.9    |
+| adv_dynamics_update/sl_loss       | -62.9    |
+| alpha                             | 0.136    |
+| loss/actor                        | -6.52    |
+| loss/alpha                        | 0.691    |
+| loss/critic1                      | 2.98e+03 |
+| loss/critic2                      | 2.97e+03 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 48000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122562, reward mean: 0.6741
+num rollout transitions: 122412, reward mean: 0.6741
+num rollout transitions: 122490, reward mean: 0.6744
+num rollout transitions: 122413, reward mean: 0.6746
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.82e-10 |
+| adv_dynamics_update/adv_log_prob  | 455       |
+| adv_dynamics_update/adv_loss      | -14.5     |
+| adv_dynamics_update/all_loss      | -63       |
+| adv_dynamics_update/sl_loss       | -63       |
+| alpha                             | 0.147     |
+| loss/actor                        | -0.114    |
+| loss/alpha                        | 0.507     |
+| loss/critic1                      | 4.19e+03  |
+| loss/critic2                      | 4.18e+03  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 49000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122142, reward mean: 0.6718
+num rollout transitions: 122627, reward mean: 0.6719
+num rollout transitions: 121923, reward mean: 0.6715
+num rollout transitions: 122172, reward mean: 0.6713
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.12e-10 |
+| adv_dynamics_update/adv_log_prob  | 448      |
+| adv_dynamics_update/adv_loss      | -12.3    |
+| adv_dynamics_update/all_loss      | -63.1    |
+| adv_dynamics_update/sl_loss       | -63.1    |
+| alpha                             | 0.16     |
+| loss/actor                        | 4.62     |
+| loss/alpha                        | 0.597    |
+| loss/critic1                      | 4.54e+03 |
+| loss/critic2                      | 4.58e+03 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 50000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 123358, reward mean: 0.6746
+num rollout transitions: 121744, reward mean: 0.6725
+num rollout transitions: 122121, reward mean: 0.6734
+num rollout transitions: 122042, reward mean: 0.6724
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -7.22e-11 |
+| adv_dynamics_update/adv_log_prob  | 449       |
+| adv_dynamics_update/adv_loss      | -14.5     |
+| adv_dynamics_update/all_loss      | -63.1     |
+| adv_dynamics_update/sl_loss       | -63.1     |
+| alpha                             | 0.178     |
+| loss/actor                        | 10.5      |
+| loss/alpha                        | 0.91      |
+| loss/critic1                      | 6.7e+03   |
+| loss/critic2                      | 6.76e+03  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 51000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 123333, reward mean: 0.6742
+num rollout transitions: 121996, reward mean: 0.6734
+num rollout transitions: 122675, reward mean: 0.6741
+num rollout transitions: 122857, reward mean: 0.6744
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.02e-10 |
+| adv_dynamics_update/adv_log_prob  | 452      |
+| adv_dynamics_update/adv_loss      | -15.8    |
+| adv_dynamics_update/all_loss      | -63.2    |
+| adv_dynamics_update/sl_loss       | -63.2    |
+| alpha                             | 0.197    |
+| loss/actor                        | 13.6     |
+| loss/alpha                        | 0.668    |
+| loss/critic1                      | 7.24e+03 |
+| loss/critic2                      | 7.43e+03 |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 52000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122693, reward mean: 0.6742
+num rollout transitions: 121674, reward mean: 0.6730
+num rollout transitions: 121945, reward mean: 0.6729
+num rollout transitions: 121866, reward mean: 0.6728
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.87e-10 |
+| adv_dynamics_update/adv_log_prob  | 452      |
+| adv_dynamics_update/adv_loss      | -9.98    |
+| adv_dynamics_update/all_loss      | -63.4    |
+| adv_dynamics_update/sl_loss       | -63.4    |
+| alpha                             | 0.213    |
+| loss/actor                        | 19.5     |
+| loss/alpha                        | 0.498    |
+| loss/critic1                      | 9.6e+03  |
+| loss/critic2                      | 9.82e+03 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 53000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121760, reward mean: 0.6729
+num rollout transitions: 121764, reward mean: 0.6726
+num rollout transitions: 122546, reward mean: 0.6737
+num rollout transitions: 121837, reward mean: 0.6737
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.51e-10 |
+| adv_dynamics_update/adv_log_prob  | 462      |
+| adv_dynamics_update/adv_loss      | -18.9    |
+| adv_dynamics_update/all_loss      | -63.5    |
+| adv_dynamics_update/sl_loss       | -63.5    |
+| alpha                             | 0.23     |
+| loss/actor                        | 26.7     |
+| loss/alpha                        | 0.472    |
+| loss/critic1                      | 1.15e+04 |
+| loss/critic2                      | 1.15e+04 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 54000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122468, reward mean: 0.6736
+num rollout transitions: 122753, reward mean: 0.6732
+num rollout transitions: 122930, reward mean: 0.6732
+num rollout transitions: 122053, reward mean: 0.6728
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.25e-11 |
+| adv_dynamics_update/adv_log_prob  | 459      |
+| adv_dynamics_update/adv_loss      | -17.5    |
+| adv_dynamics_update/all_loss      | -63.6    |
+| adv_dynamics_update/sl_loss       | -63.6    |
+| alpha                             | 0.252    |
+| loss/actor                        | 36.6     |
+| loss/alpha                        | 0.533    |
+| loss/critic1                      | 1.46e+04 |
+| loss/critic2                      | 1.48e+04 |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 55000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122065, reward mean: 0.6732
+num rollout transitions: 121964, reward mean: 0.6734
+num rollout transitions: 121448, reward mean: 0.6727
+num rollout transitions: 121545, reward mean: 0.6733
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.39e-10 |
+| adv_dynamics_update/adv_log_prob  | 461      |
+| adv_dynamics_update/adv_loss      | -16.2    |
+| adv_dynamics_update/all_loss      | -63.6    |
+| adv_dynamics_update/sl_loss       | -63.6    |
+| alpha                             | 0.28     |
+| loss/actor                        | 48.5     |
+| loss/alpha                        | 0.624    |
+| loss/critic1                      | 2.15e+04 |
+| loss/critic2                      | 2.18e+04 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 56000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122030, reward mean: 0.6730
+num rollout transitions: 122190, reward mean: 0.6736
+num rollout transitions: 122499, reward mean: 0.6737
+num rollout transitions: 122275, reward mean: 0.6732
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.66e-10 |
+| adv_dynamics_update/adv_log_prob  | 461       |
+| adv_dynamics_update/adv_loss      | -16.9     |
+| adv_dynamics_update/all_loss      | -63.7     |
+| adv_dynamics_update/sl_loss       | -63.7     |
+| alpha                             | 0.311     |
+| loss/actor                        | 59.5      |
+| loss/alpha                        | 0.635     |
+| loss/critic1                      | 2.65e+04  |
+| loss/critic2                      | 2.68e+04  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 57000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122377, reward mean: 0.6752
+num rollout transitions: 121973, reward mean: 0.6750
+num rollout transitions: 122068, reward mean: 0.6742
+num rollout transitions: 122657, reward mean: 0.6748
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.87e-10 |
+| adv_dynamics_update/adv_log_prob  | 452      |
+| adv_dynamics_update/adv_loss      | -17.3    |
+| adv_dynamics_update/all_loss      | -63.4    |
+| adv_dynamics_update/sl_loss       | -63.4    |
+| alpha                             | 0.346    |
+| loss/actor                        | 70.5     |
+| loss/alpha                        | 0.649    |
+| loss/critic1                      | 3.43e+04 |
+| loss/critic2                      | 3.39e+04 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.675    |
+| timestep                          | 58000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122743, reward mean: 0.6744
+num rollout transitions: 122406, reward mean: 0.6738
+num rollout transitions: 122283, reward mean: 0.6735
+num rollout transitions: 121853, reward mean: 0.6729
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -6.11e-10 |
+| adv_dynamics_update/adv_log_prob  | 442       |
+| adv_dynamics_update/adv_loss      | -10.9     |
+| adv_dynamics_update/all_loss      | -63.7     |
+| adv_dynamics_update/sl_loss       | -63.7     |
+| alpha                             | 0.386     |
+| loss/actor                        | 80.8      |
+| loss/alpha                        | 0.746     |
+| loss/critic1                      | 4.12e+04  |
+| loss/critic2                      | 4.13e+04  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 59000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 123115, reward mean: 0.6747
+num rollout transitions: 122352, reward mean: 0.6737
+num rollout transitions: 122169, reward mean: 0.6739
+num rollout transitions: 122698, reward mean: 0.6734
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -4.48e-10 |
+| adv_dynamics_update/adv_log_prob  | 457       |
+| adv_dynamics_update/adv_loss      | -10.5     |
+| adv_dynamics_update/all_loss      | -63.9     |
+| adv_dynamics_update/sl_loss       | -63.9     |
+| alpha                             | 0.429     |
+| loss/actor                        | 94.1      |
+| loss/alpha                        | 0.653     |
+| loss/critic1                      | 4.97e+04  |
+| loss/critic2                      | 5.01e+04  |
+| rollout_info/num_transitions      | 1.23e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 60000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122305, reward mean: 0.6734
+num rollout transitions: 122075, reward mean: 0.6733
+num rollout transitions: 121827, reward mean: 0.6723
+num rollout transitions: 121745, reward mean: 0.6726
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.18e-10 |
+| adv_dynamics_update/adv_log_prob  | 463       |
+| adv_dynamics_update/adv_loss      | -12       |
+| adv_dynamics_update/all_loss      | -64.1     |
+| adv_dynamics_update/sl_loss       | -64.1     |
+| alpha                             | 0.47      |
+| loss/actor                        | 116       |
+| loss/alpha                        | 0.446     |
+| loss/critic1                      | 7.63e+04  |
+| loss/critic2                      | 7.79e+04  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 61000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122130, reward mean: 0.6721
+num rollout transitions: 122248, reward mean: 0.6731
+num rollout transitions: 121471, reward mean: 0.6715
+num rollout transitions: 121934, reward mean: 0.6720
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.56e-10 |
+| adv_dynamics_update/adv_log_prob  | 460      |
+| adv_dynamics_update/adv_loss      | -14.3    |
+| adv_dynamics_update/all_loss      | -64.2    |
+| adv_dynamics_update/sl_loss       | -64.2    |
+| alpha                             | 0.513    |
+| loss/actor                        | 137      |
+| loss/alpha                        | 0.434    |
+| loss/critic1                      | 9.32e+04 |
+| loss/critic2                      | 9.42e+04 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 62000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122136, reward mean: 0.6725
+num rollout transitions: 121890, reward mean: 0.6727
+num rollout transitions: 123126, reward mean: 0.6742
+num rollout transitions: 123331, reward mean: 0.6748
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -5.3e-10 |
+| adv_dynamics_update/adv_log_prob  | 460      |
+| adv_dynamics_update/adv_loss      | -12      |
+| adv_dynamics_update/all_loss      | -64.2    |
+| adv_dynamics_update/sl_loss       | -64.2    |
+| alpha                             | 0.57     |
+| loss/actor                        | 155      |
+| loss/alpha                        | 0.463    |
+| loss/critic1                      | 1.13e+05 |
+| loss/critic2                      | 1.14e+05 |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 63000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122388, reward mean: 0.6730
+num rollout transitions: 122091, reward mean: 0.6732
+num rollout transitions: 122212, reward mean: 0.6730
+num rollout transitions: 121676, reward mean: 0.6721
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.51e-10 |
+| adv_dynamics_update/adv_log_prob  | 454       |
+| adv_dynamics_update/adv_loss      | -9.91     |
+| adv_dynamics_update/all_loss      | -64.4     |
+| adv_dynamics_update/sl_loss       | -64.4     |
+| alpha                             | 0.632     |
+| loss/actor                        | 179       |
+| loss/alpha                        | 0.347     |
+| loss/critic1                      | 1.38e+05  |
+| loss/critic2                      | 1.37e+05  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 64000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122186, reward mean: 0.6735
+num rollout transitions: 122512, reward mean: 0.6748
+num rollout transitions: 121465, reward mean: 0.6732
+num rollout transitions: 123174, reward mean: 0.6753
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.83e-10 |
+| adv_dynamics_update/adv_log_prob  | 455       |
+| adv_dynamics_update/adv_loss      | -12.2     |
+| adv_dynamics_update/all_loss      | -64.4     |
+| adv_dynamics_update/sl_loss       | -64.4     |
+| alpha                             | 0.69      |
+| loss/actor                        | 216       |
+| loss/alpha                        | 0.248     |
+| loss/critic1                      | 2.06e+05  |
+| loss/critic2                      | 2.07e+05  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 65000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122346, reward mean: 0.6745
+num rollout transitions: 122203, reward mean: 0.6747
+num rollout transitions: 122888, reward mean: 0.6755
+num rollout transitions: 121857, reward mean: 0.6733
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.09e-10 |
+| adv_dynamics_update/adv_log_prob  | 453      |
+| adv_dynamics_update/adv_loss      | -10.8    |
+| adv_dynamics_update/all_loss      | -64.3    |
+| adv_dynamics_update/sl_loss       | -64.3    |
+| alpha                             | 0.766    |
+| loss/actor                        | 240      |
+| loss/alpha                        | 0.247    |
+| loss/critic1                      | 2.13e+05 |
+| loss/critic2                      | 2.13e+05 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 66000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122248, reward mean: 0.6727
+num rollout transitions: 122091, reward mean: 0.6734
+num rollout transitions: 122469, reward mean: 0.6735
+num rollout transitions: 121891, reward mean: 0.6731
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.06e-10 |
+| adv_dynamics_update/adv_log_prob  | 455      |
+| adv_dynamics_update/adv_loss      | -5.4     |
+| adv_dynamics_update/all_loss      | -64.5    |
+| adv_dynamics_update/sl_loss       | -64.5    |
+| alpha                             | 0.852    |
+| loss/actor                        | 258      |
+| loss/alpha                        | 0.146    |
+| loss/critic1                      | 2.33e+05 |
+| loss/critic2                      | 2.36e+05 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 67000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122199, reward mean: 0.6738
+num rollout transitions: 121524, reward mean: 0.6723
+num rollout transitions: 122147, reward mean: 0.6728
+num rollout transitions: 122705, reward mean: 0.6734
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.4e-10  |
+| adv_dynamics_update/adv_log_prob  | 455      |
+| adv_dynamics_update/adv_loss      | -10.7    |
+| adv_dynamics_update/all_loss      | -64.4    |
+| adv_dynamics_update/sl_loss       | -64.4    |
+| alpha                             | 0.935    |
+| loss/actor                        | 305      |
+| loss/alpha                        | 0.0518   |
+| loss/critic1                      | 3.32e+05 |
+| loss/critic2                      | 3.32e+05 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 68000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121620, reward mean: 0.6732
+num rollout transitions: 122419, reward mean: 0.6742
+num rollout transitions: 122765, reward mean: 0.6749
+num rollout transitions: 122475, reward mean: 0.6735
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.7e-10  |
+| adv_dynamics_update/adv_log_prob  | 462      |
+| adv_dynamics_update/adv_loss      | -12.9    |
+| adv_dynamics_update/all_loss      | -64.7    |
+| adv_dynamics_update/sl_loss       | -64.7    |
+| alpha                             | 0.997    |
+| loss/actor                        | 349      |
+| loss/alpha                        | -0.0283  |
+| loss/critic1                      | 4.32e+05 |
+| loss/critic2                      | 4.36e+05 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 69000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121922, reward mean: 0.6719
+num rollout transitions: 121814, reward mean: 0.6721
+num rollout transitions: 122374, reward mean: 0.6729
+num rollout transitions: 122389, reward mean: 0.6733
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 8.29e-11 |
+| adv_dynamics_update/adv_log_prob  | 465      |
+| adv_dynamics_update/adv_loss      | -11.2    |
+| adv_dynamics_update/all_loss      | -64.8    |
+| adv_dynamics_update/sl_loss       | -64.8    |
+| alpha                             | 1        |
+| loss/actor                        | 380      |
+| loss/alpha                        | -0.15    |
+| loss/critic1                      | 5.46e+05 |
+| loss/critic2                      | 5.49e+05 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 70000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122097, reward mean: 0.6729
+num rollout transitions: 122879, reward mean: 0.6738
+num rollout transitions: 121610, reward mean: 0.6717
+num rollout transitions: 121748, reward mean: 0.6721
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.86e-10 |
+| adv_dynamics_update/adv_log_prob  | 460      |
+| adv_dynamics_update/adv_loss      | -10.6    |
+| adv_dynamics_update/all_loss      | -64.9    |
+| adv_dynamics_update/sl_loss       | -64.9    |
+| alpha                             | 1        |
+| loss/actor                        | 417      |
+| loss/alpha                        | -0.306   |
+| loss/critic1                      | 6.68e+05 |
+| loss/critic2                      | 6.67e+05 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 71000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122828, reward mean: 0.6734
+num rollout transitions: 122658, reward mean: 0.6735
+num rollout transitions: 122188, reward mean: 0.6733
+num rollout transitions: 122446, reward mean: 0.6742
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.14e-10 |
+| adv_dynamics_update/adv_log_prob  | 464      |
+| adv_dynamics_update/adv_loss      | -13.3    |
+| adv_dynamics_update/all_loss      | -65      |
+| adv_dynamics_update/sl_loss       | -65      |
+| alpha                             | 1        |
+| loss/actor                        | 424      |
+| loss/alpha                        | -0.495   |
+| loss/critic1                      | 7.22e+05 |
+| loss/critic2                      | 7.21e+05 |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 72000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122546, reward mean: 0.6741
+num rollout transitions: 122536, reward mean: 0.6735
+num rollout transitions: 121605, reward mean: 0.6724
+num rollout transitions: 122338, reward mean: 0.6736
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 7.01e-10 |
+| adv_dynamics_update/adv_log_prob  | 461      |
+| adv_dynamics_update/adv_loss      | -3.18    |
+| adv_dynamics_update/all_loss      | -64.9    |
+| adv_dynamics_update/sl_loss       | -64.9    |
+| alpha                             | 1        |
+| loss/actor                        | 469      |
+| loss/alpha                        | -0.739   |
+| loss/critic1                      | 9.1e+05  |
+| loss/critic2                      | 9.13e+05 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 73000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121779, reward mean: 0.6719
+num rollout transitions: 123585, reward mean: 0.6748
+num rollout transitions: 122039, reward mean: 0.6726
+num rollout transitions: 121890, reward mean: 0.6720
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.07e-10 |
+| adv_dynamics_update/adv_log_prob  | 465       |
+| adv_dynamics_update/adv_loss      | -7.19     |
+| adv_dynamics_update/all_loss      | -65.1     |
+| adv_dynamics_update/sl_loss       | -65.1     |
+| alpha                             | 1         |
+| loss/actor                        | 523       |
+| loss/alpha                        | -1        |
+| loss/critic1                      | 1e+06     |
+| loss/critic2                      | 1.01e+06  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 74000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122144, reward mean: 0.6730
+num rollout transitions: 122390, reward mean: 0.6731
+num rollout transitions: 121674, reward mean: 0.6720
+num rollout transitions: 122715, reward mean: 0.6731
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.75e-10 |
+| adv_dynamics_update/adv_log_prob  | 454       |
+| adv_dynamics_update/adv_loss      | 1.77      |
+| adv_dynamics_update/all_loss      | -65.1     |
+| adv_dynamics_update/sl_loss       | -65.1     |
+| alpha                             | 1         |
+| loss/actor                        | 571       |
+| loss/alpha                        | -1.31     |
+| loss/critic1                      | 1.17e+06  |
+| loss/critic2                      | 1.19e+06  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 75000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122413, reward mean: 0.6735
+num rollout transitions: 122570, reward mean: 0.6743
+num rollout transitions: 121572, reward mean: 0.6724
+num rollout transitions: 121830, reward mean: 0.6723
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.33e-13 |
+| adv_dynamics_update/adv_log_prob  | 443       |
+| adv_dynamics_update/adv_loss      | -8.02     |
+| adv_dynamics_update/all_loss      | -65.2     |
+| adv_dynamics_update/sl_loss       | -65.2     |
+| alpha                             | 1         |
+| loss/actor                        | 588       |
+| loss/alpha                        | -1.79     |
+| loss/critic1                      | 1.39e+06  |
+| loss/critic2                      | 1.39e+06  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 76000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 121727, reward mean: 0.6719
+num rollout transitions: 121878, reward mean: 0.6720
+num rollout transitions: 122528, reward mean: 0.6731
+num rollout transitions: 122057, reward mean: 0.6728
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.91e-11 |
+| adv_dynamics_update/adv_log_prob  | 446      |
+| adv_dynamics_update/adv_loss      | -6.41    |
+| adv_dynamics_update/all_loss      | -65.2    |
+| adv_dynamics_update/sl_loss       | -65.2    |
+| alpha                             | 1        |
+| loss/actor                        | 605      |
+| loss/alpha                        | -2.21    |
+| loss/critic1                      | 1.43e+06 |
+| loss/critic2                      | 1.45e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 77000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122065, reward mean: 0.6706
+num rollout transitions: 122738, reward mean: 0.6720
+num rollout transitions: 122059, reward mean: 0.6710
+num rollout transitions: 121813, reward mean: 0.6708
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.94e-10 |
+| adv_dynamics_update/adv_log_prob  | 453       |
+| adv_dynamics_update/adv_loss      | -4.36     |
+| adv_dynamics_update/all_loss      | -65.4     |
+| adv_dynamics_update/sl_loss       | -65.4     |
+| alpha                             | 1         |
+| loss/actor                        | 657       |
+| loss/alpha                        | -2.64     |
+| loss/critic1                      | 1.92e+06  |
+| loss/critic2                      | 1.9e+06   |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.671     |
+| timestep                          | 78000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122793, reward mean: 0.6735
+num rollout transitions: 122508, reward mean: 0.6735
+num rollout transitions: 122503, reward mean: 0.6725
+num rollout transitions: 122150, reward mean: 0.6715
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 4.77e-11 |
+| adv_dynamics_update/adv_log_prob  | 448      |
+| adv_dynamics_update/adv_loss      | -8.74    |
+| adv_dynamics_update/all_loss      | -65.4    |
+| adv_dynamics_update/sl_loss       | -65.4    |
+| alpha                             | 1        |
+| loss/actor                        | 709      |
+| loss/alpha                        | -3.07    |
+| loss/critic1                      | 2.68e+06 |
+| loss/critic2                      | 2.72e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 79000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122392, reward mean: 0.6732
+num rollout transitions: 122848, reward mean: 0.6744
+num rollout transitions: 122900, reward mean: 0.6744
+num rollout transitions: 122222, reward mean: 0.6740
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.32e-10 |
+| adv_dynamics_update/adv_log_prob  | 461       |
+| adv_dynamics_update/adv_loss      | -4.58     |
+| adv_dynamics_update/all_loss      | -65.5     |
+| adv_dynamics_update/sl_loss       | -65.5     |
+| alpha                             | 1         |
+| loss/actor                        | 780       |
+| loss/alpha                        | -3.84     |
+| loss/critic1                      | 2.8e+06   |
+| loss/critic2                      | 2.78e+06  |
+| rollout_info/num_transitions      | 1.23e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 80000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122484, reward mean: 0.6735
+num rollout transitions: 122915, reward mean: 0.6734
+num rollout transitions: 121308, reward mean: 0.6720
+num rollout transitions: 122712, reward mean: 0.6732
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.3e-10  |
+| adv_dynamics_update/adv_log_prob  | 462      |
+| adv_dynamics_update/adv_loss      | -4.75    |
+| adv_dynamics_update/all_loss      | -65.6    |
+| adv_dynamics_update/sl_loss       | -65.6    |
+| alpha                             | 1        |
+| loss/actor                        | 866      |
+| loss/alpha                        | -4.04    |
+| loss/critic1                      | 2.85e+06 |
+| loss/critic2                      | 2.88e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 81000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122332, reward mean: 0.6734
+num rollout transitions: 122154, reward mean: 0.6736
+num rollout transitions: 121439, reward mean: 0.6727
+num rollout transitions: 122070, reward mean: 0.6729
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.83e-10 |
+| adv_dynamics_update/adv_log_prob  | 462       |
+| adv_dynamics_update/adv_loss      | 0.363     |
+| adv_dynamics_update/all_loss      | -65       |
+| adv_dynamics_update/sl_loss       | -65       |
+| alpha                             | 1         |
+| loss/actor                        | 945       |
+| loss/alpha                        | -4.83     |
+| loss/critic1                      | 3.85e+06  |
+| loss/critic2                      | 3.83e+06  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 82000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122773, reward mean: 0.6735
+num rollout transitions: 121942, reward mean: 0.6729
+num rollout transitions: 122456, reward mean: 0.6734
+num rollout transitions: 121685, reward mean: 0.6725
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.59e-10 |
+| adv_dynamics_update/adv_log_prob  | 463       |
+| adv_dynamics_update/adv_loss      | -6.21     |
+| adv_dynamics_update/all_loss      | -65       |
+| adv_dynamics_update/sl_loss       | -65       |
+| alpha                             | 1         |
+| loss/actor                        | 1.08e+03  |
+| loss/alpha                        | -4.98     |
+| loss/critic1                      | 3.06e+06  |
+| loss/critic2                      | 3.11e+06  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 83000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122029, reward mean: 0.6720
+num rollout transitions: 121838, reward mean: 0.6719
+num rollout transitions: 121925, reward mean: 0.6725
+num rollout transitions: 122442, reward mean: 0.6729
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.11e-10 |
+| adv_dynamics_update/adv_log_prob  | 467      |
+| adv_dynamics_update/adv_loss      | -1.89    |
+| adv_dynamics_update/all_loss      | -65.5    |
+| adv_dynamics_update/sl_loss       | -65.5    |
+| alpha                             | 1        |
+| loss/actor                        | 1.18e+03 |
+| loss/alpha                        | -5.53    |
+| loss/critic1                      | 4.12e+06 |
+| loss/critic2                      | 4.15e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 84000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122360, reward mean: 0.6728
+num rollout transitions: 123073, reward mean: 0.6736
+num rollout transitions: 123150, reward mean: 0.6741
+num rollout transitions: 122353, reward mean: 0.6728
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.52e-10 |
+| adv_dynamics_update/adv_log_prob  | 465      |
+| adv_dynamics_update/adv_loss      | -5.53    |
+| adv_dynamics_update/all_loss      | -65.6    |
+| adv_dynamics_update/sl_loss       | -65.6    |
+| alpha                             | 1        |
+| loss/actor                        | 1.24e+03 |
+| loss/alpha                        | -5.97    |
+| loss/critic1                      | 4.92e+06 |
+| loss/critic2                      | 4.91e+06 |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 85000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122603, reward mean: 0.6724
+num rollout transitions: 121592, reward mean: 0.6707
+num rollout transitions: 123120, reward mean: 0.6739
+num rollout transitions: 122380, reward mean: 0.6728
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.21e-10 |
+| adv_dynamics_update/adv_log_prob  | 469      |
+| adv_dynamics_update/adv_loss      | -4.78    |
+| adv_dynamics_update/all_loss      | -65.7    |
+| adv_dynamics_update/sl_loss       | -65.7    |
+| alpha                             | 1        |
+| loss/actor                        | 1.27e+03 |
+| loss/alpha                        | -6.59    |
+| loss/critic1                      | 3.91e+06 |
+| loss/critic2                      | 3.93e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 86000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122528, reward mean: 0.6733
+num rollout transitions: 121994, reward mean: 0.6725
+num rollout transitions: 122085, reward mean: 0.6723
+num rollout transitions: 122827, reward mean: 0.6736
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.37e-10 |
+| adv_dynamics_update/adv_log_prob  | 455       |
+| adv_dynamics_update/adv_loss      | -8.74     |
+| adv_dynamics_update/all_loss      | -63.4     |
+| adv_dynamics_update/sl_loss       | -63.4     |
+| alpha                             | 1         |
+| loss/actor                        | 1.31e+03  |
+| loss/alpha                        | -6.93     |
+| loss/critic1                      | 3.58e+06  |
+| loss/critic2                      | 3.6e+06   |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 87000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122142, reward mean: 0.6729
+num rollout transitions: 122267, reward mean: 0.6735
+num rollout transitions: 121807, reward mean: 0.6728
+num rollout transitions: 122208, reward mean: 0.6732
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.67e-10 |
+| adv_dynamics_update/adv_log_prob  | 462      |
+| adv_dynamics_update/adv_loss      | -11.2    |
+| adv_dynamics_update/all_loss      | -65.3    |
+| adv_dynamics_update/sl_loss       | -65.3    |
+| alpha                             | 1        |
+| loss/actor                        | 1.4e+03  |
+| loss/alpha                        | -7.2     |
+| loss/critic1                      | 4.52e+06 |
+| loss/critic2                      | 4.53e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 88000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121773, reward mean: 0.6730
+num rollout transitions: 122957, reward mean: 0.6743
+num rollout transitions: 121992, reward mean: 0.6723
+num rollout transitions: 122018, reward mean: 0.6731
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.42e-10 |
+| adv_dynamics_update/adv_log_prob  | 468       |
+| adv_dynamics_update/adv_loss      | -8.94     |
+| adv_dynamics_update/all_loss      | -65.8     |
+| adv_dynamics_update/sl_loss       | -65.8     |
+| alpha                             | 1         |
+| loss/actor                        | 1.46e+03  |
+| loss/alpha                        | -7.87     |
+| loss/critic1                      | 5.17e+06  |
+| loss/critic2                      | 5.18e+06  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 89000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122708, reward mean: 0.6733
+num rollout transitions: 122579, reward mean: 0.6724
+num rollout transitions: 121672, reward mean: 0.6717
+num rollout transitions: 122238, reward mean: 0.6724
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 5.03e-11 |
+| adv_dynamics_update/adv_log_prob  | 470      |
+| adv_dynamics_update/adv_loss      | -4.98    |
+| adv_dynamics_update/all_loss      | -65.7    |
+| adv_dynamics_update/sl_loss       | -65.7    |
+| alpha                             | 1        |
+| loss/actor                        | 1.55e+03 |
+| loss/alpha                        | -8.45    |
+| loss/critic1                      | 5.2e+06  |
+| loss/critic2                      | 5.22e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 90000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122545, reward mean: 0.6739
+num rollout transitions: 122202, reward mean: 0.6726
+num rollout transitions: 122533, reward mean: 0.6738
+num rollout transitions: 121589, reward mean: 0.6737
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.31e-11 |
+| adv_dynamics_update/adv_log_prob  | 472      |
+| adv_dynamics_update/adv_loss      | -7.77    |
+| adv_dynamics_update/all_loss      | -66      |
+| adv_dynamics_update/sl_loss       | -66      |
+| alpha                             | 1        |
+| loss/actor                        | 1.64e+03 |
+| loss/alpha                        | -8.84    |
+| loss/critic1                      | 5.84e+06 |
+| loss/critic2                      | 5.96e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 91000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122627, reward mean: 0.6737
+num rollout transitions: 122622, reward mean: 0.6744
+num rollout transitions: 121725, reward mean: 0.6734
+num rollout transitions: 122528, reward mean: 0.6740
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.6e-11 |
+| adv_dynamics_update/adv_log_prob  | 472      |
+| adv_dynamics_update/adv_loss      | -7.05    |
+| adv_dynamics_update/all_loss      | -66.1    |
+| adv_dynamics_update/sl_loss       | -66.1    |
+| alpha                             | 1        |
+| loss/actor                        | 1.79e+03 |
+| loss/alpha                        | -9.3     |
+| loss/critic1                      | 7.48e+06 |
+| loss/critic2                      | 7.48e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 92000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 121850, reward mean: 0.6733
+num rollout transitions: 122279, reward mean: 0.6741
+num rollout transitions: 121385, reward mean: 0.6732
+num rollout transitions: 122648, reward mean: 0.6736
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 2.31e-10 |
+| adv_dynamics_update/adv_log_prob  | 469      |
+| adv_dynamics_update/adv_loss      | -10.7    |
+| adv_dynamics_update/all_loss      | -66.2    |
+| adv_dynamics_update/sl_loss       | -66.2    |
+| alpha                             | 1        |
+| loss/actor                        | 1.88e+03 |
+| loss/alpha                        | -10.2    |
+| loss/critic1                      | 7.51e+06 |
+| loss/critic2                      | 7.47e+06 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 93000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122248, reward mean: 0.6745
+num rollout transitions: 122154, reward mean: 0.6738
+num rollout transitions: 122741, reward mean: 0.6736
+num rollout transitions: 122188, reward mean: 0.6734
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -5.32e-10 |
+| adv_dynamics_update/adv_log_prob  | 461       |
+| adv_dynamics_update/adv_loss      | -6.39     |
+| adv_dynamics_update/all_loss      | -66.2     |
+| adv_dynamics_update/sl_loss       | -66.2     |
+| alpha                             | 1         |
+| loss/actor                        | 1.97e+03  |
+| loss/alpha                        | -11       |
+| loss/critic1                      | 8.03e+06  |
+| loss/critic2                      | 7.93e+06  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 94000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122377, reward mean: 0.6742
+num rollout transitions: 121949, reward mean: 0.6729
+num rollout transitions: 121958, reward mean: 0.6732
+num rollout transitions: 122859, reward mean: 0.6735
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.15e-10 |
+| adv_dynamics_update/adv_log_prob  | 458      |
+| adv_dynamics_update/adv_loss      | -14.3    |
+| adv_dynamics_update/all_loss      | -66.4    |
+| adv_dynamics_update/sl_loss       | -66.4    |
+| alpha                             | 1        |
+| loss/actor                        | 2.04e+03 |
+| loss/alpha                        | -12.1    |
+| loss/critic1                      | 1.14e+07 |
+| loss/critic2                      | 1.14e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 95000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122304, reward mean: 0.6733
+num rollout transitions: 122803, reward mean: 0.6732
+num rollout transitions: 121897, reward mean: 0.6728
+num rollout transitions: 121446, reward mean: 0.6717
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.28e-10 |
+| adv_dynamics_update/adv_log_prob  | 445      |
+| adv_dynamics_update/adv_loss      | -6.74    |
+| adv_dynamics_update/all_loss      | -64.1    |
+| adv_dynamics_update/sl_loss       | -64.1    |
+| alpha                             | 1        |
+| loss/actor                        | 2.05e+03 |
+| loss/alpha                        | -13.3    |
+| loss/critic1                      | 1.03e+07 |
+| loss/critic2                      | 1.03e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 96000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122983, reward mean: 0.6746
+num rollout transitions: 123038, reward mean: 0.6741
+num rollout transitions: 122117, reward mean: 0.6734
+num rollout transitions: 121383, reward mean: 0.6719
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -3.93e-10 |
+| adv_dynamics_update/adv_log_prob  | 467       |
+| adv_dynamics_update/adv_loss      | -6.46     |
+| adv_dynamics_update/all_loss      | -64.7     |
+| adv_dynamics_update/sl_loss       | -64.7     |
+| alpha                             | 1         |
+| loss/actor                        | 2.25e+03  |
+| loss/alpha                        | -15       |
+| loss/critic1                      | 1.36e+07  |
+| loss/critic2                      | 1.36e+07  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.674     |
+| timestep                          | 97000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 122148, reward mean: 0.6743
+num rollout transitions: 122911, reward mean: 0.6755
+num rollout transitions: 122202, reward mean: 0.6737
+num rollout transitions: 122257, reward mean: 0.6737
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 4.55e-11 |
+| adv_dynamics_update/adv_log_prob  | 471      |
+| adv_dynamics_update/adv_loss      | -7.03    |
+| adv_dynamics_update/all_loss      | -66.1    |
+| adv_dynamics_update/sl_loss       | -66.1    |
+| alpha                             | 1        |
+| loss/actor                        | 2.56e+03 |
+| loss/alpha                        | -13.9    |
+| loss/critic1                      | 1.97e+07 |
+| loss/critic2                      | 2.01e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 98000    |
+---------------------------------------------------------------------------------
+num rollout transitions: 122735, reward mean: 0.6730
+num rollout transitions: 122288, reward mean: 0.6729
+num rollout transitions: 122191, reward mean: 0.6729
+num rollout transitions: 122796, reward mean: 0.6737
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.54e-11 |
+| adv_dynamics_update/adv_log_prob  | 470       |
+| adv_dynamics_update/adv_loss      | -8.36     |
+| adv_dynamics_update/all_loss      | -66.2     |
+| adv_dynamics_update/sl_loss       | -66.2     |
+| alpha                             | 1         |
+| loss/actor                        | 2.81e+03  |
+| loss/alpha                        | -15.2     |
+| loss/critic1                      | 1.47e+07  |
+| loss/critic2                      | 1.47e+07  |
+| rollout_info/num_transitions      | 1.23e+05  |
+| rollout_info/reward_mean          | 0.673     |
+| timestep                          | 99000     |
+----------------------------------------------------------------------------------
+num rollout transitions: 121930, reward mean: 0.6719
+num rollout transitions: 122637, reward mean: 0.6739
+num rollout transitions: 122173, reward mean: 0.6724
+num rollout transitions: 122247, reward mean: 0.6729
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 6.26e-10 |
+| adv_dynamics_update/adv_log_prob  | 476      |
+| adv_dynamics_update/adv_loss      | -9.15    |
+| adv_dynamics_update/all_loss      | -66.4    |
+| adv_dynamics_update/sl_loss       | -66.4    |
+| alpha                             | 1        |
+| loss/actor                        | 3.04e+03 |
+| loss/alpha                        | -16.4    |
+| loss/critic1                      | 1.97e+07 |
+| loss/critic2                      | 1.97e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 100000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 121854, reward mean: 0.6728
+num rollout transitions: 122000, reward mean: 0.6729
+num rollout transitions: 121782, reward mean: 0.6727
+num rollout transitions: 122099, reward mean: 0.6723
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.45e-10 |
+| adv_dynamics_update/adv_log_prob  | 478      |
+| adv_dynamics_update/adv_loss      | -4.34    |
+| adv_dynamics_update/all_loss      | -66.5    |
+| adv_dynamics_update/sl_loss       | -66.5    |
+| alpha                             | 1        |
+| loss/actor                        | 3.3e+03  |
+| loss/alpha                        | -17.5    |
+| loss/critic1                      | 2.64e+07 |
+| loss/critic2                      | 2.68e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 101000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 122287, reward mean: 0.6729
+num rollout transitions: 122269, reward mean: 0.6715
+num rollout transitions: 122255, reward mean: 0.6725
+num rollout transitions: 122700, reward mean: 0.6723
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.44e-10 |
+| adv_dynamics_update/adv_log_prob  | 482      |
+| adv_dynamics_update/adv_loss      | -7.18    |
+| adv_dynamics_update/all_loss      | -66.7    |
+| adv_dynamics_update/sl_loss       | -66.7    |
+| alpha                             | 1        |
+| loss/actor                        | 3.43e+03 |
+| loss/alpha                        | -18.5    |
+| loss/critic1                      | 2.55e+07 |
+| loss/critic2                      | 2.58e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 102000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 122068, reward mean: 0.6731
+num rollout transitions: 121899, reward mean: 0.6730
+num rollout transitions: 121941, reward mean: 0.6741
+num rollout transitions: 121953, reward mean: 0.6737
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 6.98e-12 |
+| adv_dynamics_update/adv_log_prob  | 482      |
+| adv_dynamics_update/adv_loss      | -2.99    |
+| adv_dynamics_update/all_loss      | -66.8    |
+| adv_dynamics_update/sl_loss       | -66.8    |
+| alpha                             | 1        |
+| loss/actor                        | 3.56e+03 |
+| loss/alpha                        | -19.4    |
+| loss/critic1                      | 1.9e+07  |
+| loss/critic2                      | 1.91e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 103000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 122137, reward mean: 0.6717
+num rollout transitions: 122550, reward mean: 0.6726
+num rollout transitions: 122681, reward mean: 0.6729
+num rollout transitions: 122406, reward mean: 0.6721
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 3.83e-11 |
+| adv_dynamics_update/adv_log_prob  | 483      |
+| adv_dynamics_update/adv_loss      | -4.18    |
+| adv_dynamics_update/all_loss      | -66.4    |
+| adv_dynamics_update/sl_loss       | -66.4    |
+| alpha                             | 1        |
+| loss/actor                        | 3.86e+03 |
+| loss/alpha                        | -19.9    |
+| loss/critic1                      | 2.04e+07 |
+| loss/critic2                      | 2.05e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.672    |
+| timestep                          | 104000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 122254, reward mean: 0.6730
+num rollout transitions: 122097, reward mean: 0.6737
+num rollout transitions: 122549, reward mean: 0.6733
+num rollout transitions: 122460, reward mean: 0.6737
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 1.08e-10 |
+| adv_dynamics_update/adv_log_prob  | 483      |
+| adv_dynamics_update/adv_loss      | -2.02    |
+| adv_dynamics_update/all_loss      | -66.6    |
+| adv_dynamics_update/sl_loss       | -66.6    |
+| alpha                             | 1        |
+| loss/actor                        | 3.99e+03 |
+| loss/alpha                        | -20.2    |
+| loss/critic1                      | 2.22e+07 |
+| loss/critic2                      | 2.25e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 105000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 123012, reward mean: 0.6750
+num rollout transitions: 122439, reward mean: 0.6736
+num rollout transitions: 122917, reward mean: 0.6739
+num rollout transitions: 122703, reward mean: 0.6747
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 7.21e-11 |
+| adv_dynamics_update/adv_log_prob  | 474      |
+| adv_dynamics_update/adv_loss      | 0.462    |
+| adv_dynamics_update/all_loss      | -37.4    |
+| adv_dynamics_update/sl_loss       | -37.4    |
+| alpha                             | 1        |
+| loss/actor                        | 4.19e+03 |
+| loss/alpha                        | -20.1    |
+| loss/critic1                      | 2.39e+07 |
+| loss/critic2                      | 2.4e+07  |
+| rollout_info/num_transitions      | 1.23e+05 |
+| rollout_info/reward_mean          | 0.674    |
+| timestep                          | 106000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 121861, reward mean: 0.6719
+num rollout transitions: 121779, reward mean: 0.6724
+num rollout transitions: 121727, reward mean: 0.6718
+num rollout transitions: 121749, reward mean: 0.6726
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -1.74e-10 |
+| adv_dynamics_update/adv_log_prob  | 477       |
+| adv_dynamics_update/adv_loss      | -2.72     |
+| adv_dynamics_update/all_loss      | -66.5     |
+| adv_dynamics_update/sl_loss       | -66.5     |
+| alpha                             | 1         |
+| loss/actor                        | 4.31e+03  |
+| loss/alpha                        | -21       |
+| loss/critic1                      | 2.86e+07  |
+| loss/critic2                      | 2.88e+07  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.672     |
+| timestep                          | 107000    |
+----------------------------------------------------------------------------------
+num rollout transitions: 122331, reward mean: 0.6731
+num rollout transitions: 123073, reward mean: 0.6740
+num rollout transitions: 121648, reward mean: 0.6719
+num rollout transitions: 121858, reward mean: 0.6725
+---------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | 7.08e-11 |
+| adv_dynamics_update/adv_log_prob  | 479      |
+| adv_dynamics_update/adv_loss      | -5.42    |
+| adv_dynamics_update/all_loss      | -66.9    |
+| adv_dynamics_update/sl_loss       | -66.9    |
+| alpha                             | 1        |
+| loss/actor                        | 4.49e+03 |
+| loss/alpha                        | -21.2    |
+| loss/critic1                      | 2.46e+07 |
+| loss/critic2                      | 2.49e+07 |
+| rollout_info/num_transitions      | 1.22e+05 |
+| rollout_info/reward_mean          | 0.673    |
+| timestep                          | 108000   |
+---------------------------------------------------------------------------------
+num rollout transitions: 122349, reward mean: 0.6720
+num rollout transitions: 122289, reward mean: 0.6724
+num rollout transitions: 122139, reward mean: 0.6722
+num rollout transitions: 122009, reward mean: 0.6714
+----------------------------------------------------------------------------------
+| adv_dynamics_update/adv_advantage | -2.64e-10 |
+| adv_dynamics_update/adv_log_prob  | 482       |
+| adv_dynamics_update/adv_loss      | -8.14     |
+| adv_dynamics_update/all_loss      | -67       |
+| adv_dynamics_update/sl_loss       | -67       |
+| alpha                             | 1         |
+| loss/actor                        | 4.6e+03   |
+| loss/alpha                        | -21.6     |
+| loss/critic1                      | 2.66e+07  |
+| loss/critic2                      | 2.65e+07  |
+| rollout_info/num_transitions      | 1.22e+05  |
+| rollout_info/reward_mean          | 0.672     |
+| timestep                          | 109000    |
+----------------------------------------------------------------------------------
+num rollout transitions: 121380, reward mean: 0.6716
+num rollout transitions: 121898, reward mean: 0.6726
+num rollout transitions: 122408, reward mean: 0.6729
+num rollout transitions: 122261, reward mean: 0.6727
